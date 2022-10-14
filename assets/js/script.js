@@ -43,15 +43,15 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
 
-    testimonialsModalFunc();
+    // testimonialsModalFunc();
 
   });
 
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+// modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+// overlay.addEventListener("click", testimonialsModalFunc);
 
 
 
